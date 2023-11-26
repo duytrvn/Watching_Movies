@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1a1a1a;
+    margin: 0;
+    font-size: 14px;
+    color: #dcdcdc;
+    font-family: "Roboto",sans-serif;
+}
+.header{
+    background: rgba(0,0,0,.3);
+    padding: 5px 0 0;
+    margin: 0 0 20px 0px;
+}
+.container{
+    margin: 0 auto;
+    width: auto;
+    max-width: 1200px;
+}
+.container .wrapper_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.container .wrapper_header .logo{
+    font-size: 30px;
+}
+
+.form_search{
+    background: rgba(255,255,255,.1);
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.form_search .input_search{
+    padding: 12px 5px 12px 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 200px;
+}
+
+.form_search .input_search::placeholder{
+    color: white;
+    opacity: 0.6;
+    font-size: 14px;
+
+}
+
+.form_search .btn_search{
+    padding: 0px 10px 0px 5px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 0px;
+    opacity: 0.6;
+}
+
+.form_search .btn_search:hover{
+    opacity: 1;
+}
